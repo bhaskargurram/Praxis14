@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/card_background_white"
+    android:orientation="vertical" >
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:padding="2dip"
+            android:weightSum="8" >
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="7"
+                android:scaleType="fitXY"
+             />
+
+            <com.vesit.utils.FontDark
+                android:id="@+id/name1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="NAME"
+                android:textColor="#800000"
+                android:textStyle="bold" />
+
+            <com.vesit.utils.FontLight
+                android:id="@+id/post1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="POSITION"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:padding="2dip"
+            android:weightSum="8" >
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_gravity="fill"
+                android:layout_weight="7"
+                android:background="#FFFFFF"
+                android:scaleType="fitXY"
+              />
+
+            <com.vesit.utils.FontDark
+                android:id="@+id/name2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Sridhar Narayan"
+                android:textColor="#800000"
+                android:textStyle="bold" />
+
+            <com.vesit.utils.FontLight
+                android:id="@+id/post2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="POSITION"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

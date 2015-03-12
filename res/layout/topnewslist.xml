@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2e2e2"
+    tools:context="com.example.swiperefreshlayouttest.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <ListView
+        android:id="@+id/listoftopnews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:background="#e2e2e2"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:dividerHeight="4dp"
+        android:fadingEdge="none"
+        android:padding="4dp"
+        android:scrollbarStyle="outsideOverlay" />
+
+</android.support.v4.widget.SwipeRefreshLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card_background_white"
+    android:orientation="vertical" >
+
+    <com.vesit.utils.FontDark
+        android:id="@+id/title"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:visibility="gone" 
+        android:paddingLeft="4dip"
+        />
+
+    <ImageView
+        android:id="@+id/topnewsimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" 
+        android:paddingLeft="4dip"/>
+
+    <com.vesit.utils.FontLight
+        android:id="@+id/topnewstext"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" 
+        android:paddingLeft="4dip"/>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_background_white"
+    android:orientation="vertical" >
+
+    <com.vesit.utils.FontDark
+        android:id="@+id/eventname"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+         android:paddingTop="5dp"
+        android:text="Regisration ID:"
+        android:textStyle="bold" />
+
+   
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <com.vesit.utils.FontDark
+            style="@android:style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="2dp"
+            android:paddingTop="10dp"
+            android:text="Receipt No: "
+            android:textStyle="bold" />
+
+        <com.vesit.utils.FontLight
+            android:id="@+id/uniqueid"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:text="Rs. 50" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <com.vesit.utils.FontDark
+            style="@android:style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="2dp"
+            android:paddingTop="10dp"
+            android:text="Payment Status: "
+            android:textStyle="bold" />
+
+        <com.vesit.utils.FontLight
+            android:id="@+id/status"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:text="Rs. 50" />
+    </LinearLayout>
+
+</LinearLayout>

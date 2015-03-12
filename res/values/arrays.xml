@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="nav_menu_items">
+        <item>Top News</item>
+        <item>Events</item>
+        <item>Register for an Event</item>
+        <item>Workshops</item>
+        <item>Coupons</item>
+        <item>About</item>
+        <item>Sponsors</item>
+        <item>Credits</item>
+      
+    </string-array>
+
+</resources>

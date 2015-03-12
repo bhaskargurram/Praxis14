@@ -1,0 +1,109 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.vesit.utils.FontDark
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Register"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/inputFname"
+            style="@style/EditTextAppThemeLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="Your first name"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/inputLname"
+            style="@style/EditTextAppThemeLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Your last name"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/inputEmail"
+            style="@style/EditTextAppThemeLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Enter your E-mail"
+            android:inputType="textEmailAddress" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/inputclass"
+            style="@style/EditTextAppThemeLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:textSize="15sp"
+            android:hint="College name/Class name for VESITians"
+            android:inputType="textEmailAddress" >
+        </EditText>
+        
+        
+        <EditText
+            android:id="@+id/inputPassword"
+            style="@style/EditTextAppThemeLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="20sp" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/inputConfirmpassword"
+            style="@style/EditTextAppThemeLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/inputContact"
+            style="@style/EditTextAppThemeLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Your contact number"
+            android:inputType="phone"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnCreateProduct"
+            style="@style/ButtonAppThemeLight"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Submit"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</ScrollView>

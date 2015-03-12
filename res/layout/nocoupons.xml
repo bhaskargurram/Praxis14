@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2e2e2"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.vesit.utils.FontDark
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="8dip"
+        android:text="No coupons available. You haven&apos;t Registered for any events yet."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.33"
+            android:src="@drawable/vesit" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_weight="0.33"
+            android:background="@drawable/v" />
+
+        <com.vesit.utils.FontDark
+            android:id="@+id/textcollege"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.33"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:paddingTop="20dip"
+            android:text="Vision:\n\n“To create a vibrant knowledge-oriented environment with innovative teaching practices and to inculcate a tradition of socially conscious application of technology”.\n\nVivekanand Education Society&apos;s Institute of Technology also known as VESIT or V.E.S. Institute of Technology, established in 1984, is an engineering college affiliated with the University of Mumbai.\nThe campus is located in Chembur, a northeastern suburb of Mumbai.VESIT shares its campus with the college of Pharmacy and the college for Management and Research. The campus comprises one big C-shaped building for the engineering college and several other buildings for the other colleges, hostels, etc"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <com.vesit.utils.FontDark
+            android:id="@+id/textcollege"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.33"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:paddingTop="20dip"
+            android:text="About Praxis:\nPraxis is Vivekanand Education Society's Institute of Technology's annual technical festival."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <com.vesit.utils.FontDark
+            android:id="@+id/linkcollege"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.10"
+            android:paddingTop="20dip"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:gravity="center_vertical"
+            android:text="vesit.edu"
+            android:textColor="#D2691E"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <com.vesit.utils.FontDark
+            android:id="@+id/linkpraxis"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.10"
+            android:padding="20dip"
+            android:gravity="center_vertical"
+            android:text="praxis-14.vesit.edu"
+            android:textColor="#D2691E"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+    </LinearLayout>
+
+</ScrollView>

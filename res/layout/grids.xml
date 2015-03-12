@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e2e2e2"
+        android:orientation="vertical"
+        android:weightSum="2" >
+
+        <ImageView
+            android:id="@+id/imgtopnews"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="fill"
+            android:layout_weight="0.4"
+            android:background="@drawable/topnewsgrid"
+            android:onClick="click" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imgevents"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:layout_weight="0.5"
+                android:background="@drawable/eventsgrid"
+                android:onClick="click" />
+
+            <ImageView
+                android:id="@+id/imgregister"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:layout_weight="0.5"
+                android:background="@drawable/registergrid"
+                android:onClick="click" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imgworkshops"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:layout_weight="0.5"
+                android:background="@drawable/workshopsgrid"
+                android:onClick="click" />
+
+            <ImageView
+                android:id="@+id/imgcoupons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:layout_weight="0.5"
+                android:background="@drawable/couponsgrid"
+                android:onClick="click" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imgabout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:layout_weight="0.5"
+                android:background="@drawable/aboutgrid"
+                android:onClick="click" />
+
+            <ImageView
+                android:id="@+id/imgsponsors"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:layout_weight="0.5"
+                android:background="@drawable/sponsorsgrid"
+                android:onClick="click" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imgcredits"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:layout_weight="0.5"
+                android:background="@drawable/creditsgrid"
+                android:onClick="click" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="#e2e2e2" >
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
